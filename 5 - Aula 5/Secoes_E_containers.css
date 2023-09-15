@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(207, 206, 206);
+}
+.myDiv{
+    border: 5px outset red;
+    background-color: lightblue;
+}
+
+.myDiv2{
+    border: 5px outset blue;
+    background-color: rgb(238, 134, 96);
+}
+
+.txt1{
+    color: red;
+    font-weight: bold;
+}
+
+.txt2{
+    color: red;
+    font-weight: bold;
+}
+
+.txt3{
+    color: red;
+    font-weight: bold;
+}
+
+.txt4{
+    color: red;
+    font-weight: bold;
+}
+
+.txt5{
+    color: red;
+    font-weight: bold;
+}
+
+.txt6{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+.txt1B{
+    color: blue;
+    font-weight: bold;
+}
+
+.txt2B{
+    color: blue;
+    font-weight: bold;
+}
+
+.txt3B{
+    color: blue;
+    font-weight: bold;
+}
+
+.txt4B{
+    color: blue;
+    font-weight: bold;
+}
+
+.txt5B{
+    color: blue;
+    font-weight: bold;
+}
+
+.txt6B{
+    color: blue;
+    font-weight: bold;
+}

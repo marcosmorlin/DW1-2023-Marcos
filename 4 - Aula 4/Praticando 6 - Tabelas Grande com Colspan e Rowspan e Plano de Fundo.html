@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang="pt-br"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name= "viewport" content="widht=device-width, initial-scale=1.0">
+        <title>Praticando 6 - Tabelas Grande com Colspan e Rowspan e Plano de Fundo</title>
+        <link rel="stylesheet" href="estilos_Colspan_e_Rowspan.css">
+
+    </head>
+
+    <body>
+        
+        <h2>Praticando 6 - Tabelas Grande com Coslpan e Rowspan e Plano de Fundo</h2>
+        <br>
+
+        <a href="file:///C:/Users/Marcos/OneDrive/Documentos/MAT%C3%89RIAS%20PENDENTES%20-%20ADS/3%C2%BA%20Semestre/DESENVOLVIMENTO%20WEB%201%20-%20DW1A4/Visual%20Studio/4%20-%20Aula%204/Aula%204%20-%20Menu%20Principal.html" target="_blank">
+            <p>Voltar ao Menu Principal</p>
+        </a>
+
+        <br><br>
+        <table>
+            <caption>Tabela Grande com Coslpan e Rowspan</caption>
+            <tr>
+                <td class = "green" colspan = "2">Coslpan</td><!--1 Cédula/2 Colunas na primeira linha-->
+                <td class = "green">-</td>
+                <td class = "green" rowspan = "3">Rowspan</td>
+            </tr>
+            <tr>
+                <td class="red">-</td><!--3 Cédulas na segunda linha-->
+                <td class="red">-</td>
+                <td class="red">-</td>
+            </tr>
+            <tr>
+                <td class= "blue">-</td>
+                <td class= "blue" colspan="2">Coslpan</td>
+            </tr>
+            <tr>
+                <td class="yellow">-</td>
+                <td class="yellow">-</td>
+                <td class="yellow">-</td>
+                <td class="yellow">-</td>
+            </tr>
+        </table>
+
+        <br><br>
+        
+        <table id="Leg">
+            <caption>Legenda</caption>
+            <tr style="height: 20%">
+                <td>Linha 1</td>
+                <td class="green" >-----</td>
+                <td>green</td>
+            </tr>
+
+            <tr>
+                <td>Linha 2</td>
+                <td class="red">-----</td>
+                <td>red</td>
+            </tr>
+            
+            <tr>
+                <td>Linha 3</td>
+                <td class="blue">-----</td>
+                <td>blue</td>
+            </tr>
+
+            <tr>
+                <td>Linha 4</td>
+                <td class="yellow">-----</td>
+                <td>yellow</td>
+            </tr>
+        </table>
+
+    </body>
+
+</html>

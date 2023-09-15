@@ -1,0 +1,41 @@
+/*Tabela 1*/
+
+table {
+    background: white;/*Cor da tabela*/
+  }
+
+table, td, th{/*Bordas das células*/
+    border: 1px solid black;
+}
+
+tr:nth-child(even){/*Linhas*/
+    background: rgb(176, 226, 176);
+}
+
+thead{/*Cabeçalho da tabela*/
+    background: rgb(26, 139, 26);
+}
+
+
+
+/*Tabela 2*/
+#alter {
+    background: black;/*Cor da tabela*/
+  }
+  
+
+  #alter td, th {/*Bordas das células e cor do texto*/
+    border: 1px solid black;
+    color: white;
+  }
+
+
+  #alter tr:nth-child(even) {/*Linhas*/
+    background-color: rgb(185, 183, 183);
+  }
+  
+  #alter thead {/*Cabeçalho da tabela*/
+    background-color: gray;
+    color: white;
+  }
+  
