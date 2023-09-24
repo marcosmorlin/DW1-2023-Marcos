@@ -1,0 +1,182 @@
+.div1{
+    background-color: rgb(155, 241, 138);
+}
+
+.div2{
+    background-color: rgb(155, 241, 138);
+}
+
+.div3{
+    background-color: rgb(155, 241, 138);
+}
+
+.div4{
+    background-color: rgb(155, 241, 138);
+}
+
+.div5{
+    background-color: rgb(155, 241, 138);
+}
+
+.div6{
+    background-color: rgb(155, 241, 138);
+}
+
+.div7{
+    background-color: rgb(155, 241, 138);
+}
+
+.divB1{
+    background-color: rgb(177, 217, 243);
+}
+
+.divB2{
+    background-color: rgb(177, 217, 243);
+}
+
+.divB3{
+    background-color: rgb(177, 217, 243);
+}
+
+.divB4{
+    background-color: rgb(177, 217, 243);
+}
+
+.divB5{
+    background-color: rgb(177, 217, 243);
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.Color{
+    text-indent: 40px;
+    line-height: 2.0;
+}
+
+.Explicacao1{
+    line-height: 1%;
+    text-indent: 40px;
+}
+
+.Colorp1{
+    color: rgb(23, 117, 240);
+}
+
+.Colorp2{
+    color: rgb(179, 10, 179)
+}
+
+.Colorp3{
+    color: rgb(184, 184, 9);
+}
+
+.Text_align{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicacao2{
+    line-height: 1%;
+    text-indent: 40px;
+}
+
+.Text-alignp2{
+    text-align: center;
+}
+
+.Text-alignp3{
+    text-align: right;
+}
+
+.Text-Decoration{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicacao3{
+    line-height: 1%;
+    text-indent: 40px;
+}
+
+.Text-Decorationp1{
+    text-decoration: line-through;
+}
+
+.Text-Decorationp2{
+    text-decoration: underline;
+}
+
+.Text-Transform{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+.Explicacao4{
+    line-height: 1%;
+    text-indent: 40px;
+}
+
+.Text-Transformp1{
+    text-transform: capitalize;
+}
+
+.Text-Transformp2{
+    text-transform: uppercase;
+}
+
+.Text-Indent{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicacao5{
+    line-height: 1%;
+    text-indent: 40px;
+}
+
+.Text-Indentp1{
+    text-indent: 70px;
+}
+
+.Text-Indentp2{
+    text-indent: 130px;
+}
+
+.Line-Height{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicacao6{
+    line-height: 1%;
+    text-indent: 40px;
+}
+
+.Line-Heightp2{
+    line-height: 1.5;
+}
+
+.Line-Heightp3{
+    line-height: 2.0;
+}
+
+.Font-Family{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicaçao7{
+    line-height: 1%;
+    text-indent: 40px;
+}
+
+.Font-Familyp2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+
