@@ -62,6 +62,7 @@ h3{
 .Explicacao1{
     line-height: 1%;
     text-indent: 40px;
+    font-weight: bolder;
 }
 
 .Colorp1{
@@ -84,6 +85,7 @@ h3{
 .Explicacao2{
     line-height: 1%;
     text-indent: 40px;
+    font-weight: bolder;
 }
 
 .Text-alignp2{
@@ -102,6 +104,7 @@ h3{
 .Explicacao3{
     line-height: 1%;
     text-indent: 40px;
+    font-weight: bolder;
 }
 
 .Text-Decorationp1{
@@ -119,6 +122,7 @@ h3{
 .Explicacao4{
     line-height: 1%;
     text-indent: 40px;
+    font-weight: bolder;
 }
 
 .Text-Transformp1{
@@ -137,6 +141,7 @@ h3{
 .Explicacao5{
     line-height: 1%;
     text-indent: 40px;
+    font-weight: bolder;
 }
 
 .Text-Indentp1{
@@ -155,6 +160,7 @@ h3{
 .Explicacao6{
     line-height: 1%;
     text-indent: 40px;
+    font-weight: bolder;
 }
 
 .Line-Heightp2{
@@ -165,6 +171,8 @@ h3{
     line-height: 2.0;
 }
 
+
+/*Parte 2*/
 .Font-Family{
     text-indent: 40px;
     line-height: 2.5;
@@ -173,10 +181,82 @@ h3{
 .Explicaçao7{
     line-height: 1%;
     text-indent: 40px;
+    font-weight: bolder;
 }
 
 .Font-Familyp2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Font-Familyp3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
 }
 
+.Font-Familyp4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.Font-Familyp5{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Font-Style{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicaçao8{
+    line-height: 1%;
+    text-indent: 40px;
+    font-weight: bolder;
+}
+
+.Font-Stylep1{
+    font-style: italic;
+}
+
+.Font-Weight{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicacao9{
+    line-height: 1%;
+    text-indent: 40px;
+    font-weight: bolder;
+}
+
+.Font-Weightp1{
+    font-weight: bold;
+}
+
+.Font-Size{
+    text-indent: 40px;
+    line-height: 2.5;
+}
+
+.Explicacao10{
+    line-height: 1%;
+    text-indent: 40px;
+    font-weight: bolder;
+}
+
+.Font-Sizep1{
+    font-size: small;
+}
+
+.Font-Sizep2{
+    font-size: medium;
+}
+
+.Font-Sizep3{
+    font-size: large;
+}
+
+.Font-Sizep4{
+    font-size: x-large;
+}
+
+.Font-Sizep5{
+    font-size: xx-large;
+}
