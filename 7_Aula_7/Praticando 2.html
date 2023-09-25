@@ -4,7 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Praticando 2 - Fontes Diferentes - Google Fontes</title>
-        <link rel="stylesheet" href="Praticando1.css">
+        <link rel="stylesheet" href="Praticando2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Borel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Borel&family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Borel&family=Crimson+Text:ital@1&family=Handjet:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Borel&family=Crimson+Text:ital@1&family=Handjet:wght@300&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
     </head>
 
 <body>
@@ -15,9 +22,35 @@
 
     <h1>Praticando 2 -  Fontes utilizando Google Fonts</h1>
 
-    <h2>Fonte A</h2>
+    <div class="FonteA">
+    <h2>Fonte <span style="color: red; font-family: 'Abel', sans-serif">Abel</span></h2>
 
-    <p>Lorem ipsum dolor sit amet  consectetur adipiscing elit. Eveniet libero amet quia quibusdam, dolores deleniti sapiente distinctio id nihil adipisci necessitatibus neque cupiditate obscaecati<br> consequatur provident impedit eaque sequi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. <span style="color: red; font-weight: bold"> Eveniet libero</span> amet quia quibusdam, dolores deleniti sapiente distinctio id nihil adipisci necessitatibus neque cupiditate obscaecati<br> consequatur provident impedit eaque sequi.</p>
+    </div>
+
+    <div class="FonteB">
+    <h2>Fonte <span style="color: red; font-family: 'Borel', cursive"> Borel </span></h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eveniet libero amet quia quibusdam, dolores deleniti sapiente <span style="color: red; font-weight: bold"> distinctio </span> id nihil adipisci <br>necessitatibus neque cupiditate obscaecati consequatur provident impedit eaque sequi.</p>
+    </div>
+    
+    <div class="FonteC">
+    <h2>Fonte <span style="color: red; font-family: 'Crimson Text', serif; font-weight: bold;"> Crisom Test</span> </h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eveniet libero amet quia quibusdam, dolores deleniti sapiente distinctio id nihil <span style="color: red; font-weight: bold"> adipisci necessitatibus </span> neque cupiditate obscaecati<br> consequatur provident impedit eaque sequi.</p>
+    </div>
+
+    <div class="FonteD">
+    <h2>Fonte <span style="color: red; font-family: 'Handjet', cursive; font-weight: bold;">Handjet</span></h2>
+
+    <p>Lorem ipsum <span style="color: red; font-family: 'Handjet', cursive; font-weight: bold">dolor sit </span> amet consectetur adipiscing elit. Eveniet libero amet quia quibusdam, dolores deleniti sapiente distinctio id nihil adipisci necessitatibus neque cupiditate obscaecati<br> consequatur provident impedit eaque sequi.</p>
+    </div>
+
+    <div class="FonteE">
+    <h2>Fonte <span style="color: red; font-family: 'Roboto Slab', serif; font-weight: bold">Roboto Slab</span></h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eveniet libero amet quia quibusdam, dolores deleniti sapiente distinctio id nihil adipisci necessitatibus <br>neque cupiditate obscaecati consequatur provident impedit <span style="color: red; font-family: 'Roboto Slab', serif; font-weight: bold">eaque sequi.</span></p>
+    </div>
 
 </body>
 </html>

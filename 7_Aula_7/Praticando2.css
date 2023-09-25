@@ -1,0 +1,23 @@
+.FonteA{
+    background-color: rgb(175, 218, 247);
+    font-family: 'Abel', sans-serif;
+}
+
+.FonteB{
+    background-color: rgb(248, 168, 188);
+    font-family: 'Borel', cursive;
+}
+
+.FonteC{
+    background-color: rgb(175, 255, 128);
+    font-family: 'Crimson Text', serif;
+}
+
+.FonteD{
+    background-color: rgb(211, 211, 211);
+    font-family: 'Handjet', cursive;
+}
+.FonteE{
+    background-color: rgb(255, 155, 108);
+    font-family: 'Roboto Slab', serif;
+}
