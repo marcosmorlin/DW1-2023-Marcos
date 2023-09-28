@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(170, 245, 245);
+}
+
+.h1{
+    text-indent: 150px;
+}
+
+.div1{
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+}
