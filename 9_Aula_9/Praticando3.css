@@ -1,0 +1,20 @@
+.div1{
+    background-color: rgb(193, 215, 248);
+    border-bottom: 10px solid rgb(241, 131, 155);
+    border-right: 25px solid rgb(241, 131, 155);
+    width: 60%;
+}
+
+.div2{
+    border-style: dotted;
+    border-width: 10px;
+    border-color: purple;
+    width: 90%;
+}
+
+.div3{
+    border-style: double;
+    border-width: 20px;
+    border-color: rgb(192, 6, 192);
+    width: 32%;
+}
