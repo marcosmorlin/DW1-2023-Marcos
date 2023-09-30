@@ -7,7 +7,19 @@ body{
 }
 
 .div1{
-    background-color: rgb(187, 33, 33);
-    border-style: solid;
-    border-width: 10px;
+    background-color: white;
+    border: 10px solid;
+    width: 65%; 
+}
+
+
+.h2b{
+    text-indent: 150px;
+}
+
+.div2{
+    background-color: white;
+    border: 6px solid;
+    font-size: 14px;
+    width: 620px; 
 }
