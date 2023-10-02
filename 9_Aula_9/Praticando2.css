@@ -9,12 +9,12 @@
   font-family: 'Borel', cursive;
   font-size: xx-large;
 }
+
 ul{
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-
 
 .div2{
   background-color: rgb(240, 110, 127);
