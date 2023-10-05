@@ -1,5 +1,29 @@
 .div1{
-    margin: 15vw;
+    margin-bottom: 15vw;
+    margin-top: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 130px;
     border-bottom: dashed 20px;
     background-color: gray;
+}
+
+.div2{
+    width: 400px;
+    height: 150px;
+    margin-left: 340px;
+    margin-bottom: 10px;
+    background-color: rgb(182, 202, 247);
+    border: solid 10px blue;
+    padding-bottom: 40px;
+}
+
+.div3{
+    border: 8px solid red;
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+    margin-left: 130px;
+    margin-top: 35px;
 }
