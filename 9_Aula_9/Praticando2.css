@@ -10,12 +10,6 @@
   font-size: xx-large;
 }
 
-ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
 .div2{
   background-color: rgb(240, 110, 127);
   border-top: 10px solid rgb(179, 45, 4);
@@ -23,15 +17,13 @@ ul{
   font-size: medium;
 }
 
+ul{
+  list-style-type: none;
+}
 .h2b{
   font-family: 'Borel', cursive;
   text-align: right;
   font-size: xx-large;
-}
-ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
 }
 
 @font-face {
