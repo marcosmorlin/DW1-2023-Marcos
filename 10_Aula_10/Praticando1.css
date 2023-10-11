@@ -1,3 +1,8 @@
+body{
+    text-align: justify;
+    margin-right: 10px;
+}
+
 .img1{
     float: right;
 }
