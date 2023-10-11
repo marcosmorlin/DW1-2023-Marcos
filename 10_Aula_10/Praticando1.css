@@ -1,4 +1,15 @@
-img{
+.img1{
     float: right;
-    position: relative;
+}
+
+.img2{
+    float: left;
+}
+
+.p5{
+    clear: left;
+}
+
+.img3{
+    float: right;
 }
