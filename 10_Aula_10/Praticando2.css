@@ -1,0 +1,13 @@
+.container {
+    width: 400px; /* Largura do container, ajuste conforme necessário */
+}
+
+.green-box {
+    width: 100px; /* Largura da caixa verde */
+    height: 100px; /* Altura da caixa verde */
+    background-color: green;
+    margin: 5px; /* Margem para espaçamento entre as caixas */
+    float: left;
+}
+
+
