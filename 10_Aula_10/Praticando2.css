@@ -1,13 +1,53 @@
-.container {
-    width: 400px; /* Largura do container, ajuste conforme necessário */
+.div1 {
+    width: 400px;
+    margin-right: 20px;
+    float: right;
 }
 
-.green-box {
-    width: 100px; /* Largura da caixa verde */
-    height: 100px; /* Altura da caixa verde */
+.div1a, .div1b, .div1c{
+    width: 90px; 
+    height: 90px; 
     background-color: green;
-    margin: 5px; /* Margem para espaçamento entre as caixas */
-    float: left;
+    margin: 5px; 
+    float: right;
+    margin-top: 3x;
 }
 
 
+.div2{
+    width: 800px;
+    float: left;
+    margin-top: 30px;
+}
+
+.div2a, .div2b{
+    width: 300px; 
+    height: 90px; 
+    background-color: green;
+    margin: 15px; 
+    float: left;
+    margin-top: 40px;
+}
+
+
+
+.div3 {
+    width: 400px; /* Largura do container, ajuste conforme necessário */
+    display: flex;
+    clear: left;
+}
+
+.div3a{
+    width: 100px; 
+    height: 300px; 
+    background-color: green;
+    margin-right: 100px;
+    margin-left: 15px;
+}
+
+.div3b, .div3c {
+    width: 100px;
+    height: 300px;
+    background-color: green;
+    margin-right: 20px; /* Margem à direita para separação */
+}
