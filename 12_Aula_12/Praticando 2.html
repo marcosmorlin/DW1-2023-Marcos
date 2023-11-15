@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Primeiro Programa em JavaScript</title>
+        <script src="Praticando1.js"></script>
+        <link rel="stylesheet" href="Praticando 2.css"></a>
+    </head>
+
+    <body>
+
+        <a href="../11_Aula_11/Menu Principal.html" style="color: chartreuse;" target="_blank">
+            <p>Voltar ao Menu</p>
+        </a>
+
+        <h1 class="fonte1">Praticando 2 - Formulário em Html Estilizado</h1>
+
+        <form action="/action_page.php" method="get">
+            <label class="fonte2" for="fname">Nome:</label>
+            <input class="input1" type="text" id="fname" name="fname"><br>
+            <label class="fonte3" for="email">E-mail:</label>
+            <input class="input2" type="email" id="email" name="email"><br>
+            <label class="fonte4" for="fname">Marca de Carro Preferida:</label>
+
+            <select name="cars" id="cars">
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Volksvagen">Volksvagen</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Hyundai">Hyundai</option>
+            </select><br>
+            <br>
+
+            <label class="fonte5" for="Obs">Observações</label>
+            <textarea id="Obs" name="Obs" rows="4" cols="50"></textarea><br>
+
+            <br>
+            <p class="fonte6">Linguagem web Favorita:
+            <input type="radio" name="ling.Favorita" id="html">
+            <img src="imagens/html.png" width="80px" alt="html">
+            <label for="html"></label>
+            <input type="radio" name="ling.Favorita" id="css">
+            <img src="imagens/css.png" width="60px" alt="html">
+            <label for="html"></label>
+            <input type="radio" name="ling.Favorita" id="javascript">
+            <img src="imagens/javascript.png" width="90px" alt="html">
+            <label for="html"></label></p><br>
+
+            <p class="fonte7">Filmes que eu quero ver quando lançar:
+            <input type="checkbox" name="filme1" id="filme1">
+            <label for="filme1"><a href="https://www.omelete.com.br/deadpool/deadpool-3-oficialmente-adiado" style="color: rgb(137, 137, 233); "target="_blank">DeadPool 3</a></label><br>
+            <input type="checkbox" name="filme2" id="filme2">
+            <label for="filme2"><a href="https://exame.com/pop/divertida-mente-2-pixar-apresenta-ansiedade-em-novo-filme-veja-trailer/" style="color: rgb(137, 137, 233); "target="_blank">Divertidamente 2</a></label><br>
+            <input type="checkbox" name="filme3" id="filme3">
+            <label for="filme3"><a href="https://www.tecmundo.com.br/minha-serie/267103-homem-aranha-aranhaverso-ganha-data-lancamento-online.htm" style="color: rgb(137, 137, 233); "target="_blank">Homem-Aranha: Além do Aranhaverso</a></label><br>
+            <input type="checkbox" name="filme4" id="filme4">
+            <label for="filme4"><a href="https://www.techtudo.com.br/listas/2023/11/the-marvels-5-filmes-e-series-para-maratonar-antes-de-ver-o-longa-nos-cinemas-streaming.ghtml" style="color: rgb(137, 137, 233); "target="_blank">The Marvels</a></label></p><br>
+
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </body>
+</html>
