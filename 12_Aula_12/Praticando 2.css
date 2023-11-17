@@ -5,6 +5,9 @@ body{
 form{
     text-align: center;
 }
+.mcarro{
+    border-left: 20px;
+}
 
 .input1{
     border: 2px;
@@ -47,8 +50,4 @@ textarea{
 
 .fonte7{
     font-family: 'Borel', cursive;
-}
-
-select{
-    text-align: center;
 }
