@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Praticando 2 - JavaScript</title>
+        <link rel="stylesheet" href="Praticando2.css">
+        <script src="Praticando2.js"></script>
+    </head>
+
+    <body>
+
+        <a href="../13_Aula_13/Menu Principal.html" target="_blank">
+            <p>Voltar ao Menu</p>
+        </a>
+
+        <div class="div1">
+        <h1>Praticando 2 - JavaScript - Mini-Calculadora</h1>
+
+        <form action="/action_page.php" method="get">
+            <label for="fnum">Número 1:</label><br>
+            <input id="n1" type="text" id="fnum" name="fnum">
+        </form>
+
+            <form action="/action_page.php" method="get">
+                <label for="fnum">Número 2:</label><br>
+                <input id="n2" type="text" id="fnum" name="fnum"><br>
+            </form>
+
+            <form action="/action_page.php" method="get">
+                <label for="fnum">Resultado:</label><br>
+                <input id="resultado" type="text" id="fnum" name="fnum"><br>
+            </form>
+
+            <button id="btn1" onclick="soma()" onmouseover="mudaCor(this)" onmouseout="corNormal(this)">Soma</button>
+            <button id="btn2" onclick="subtracao()" onmouseover="mudaCor(this)" onmouseout="corNormal(this)">Subtração</button>
+            <button id="btn3" onclick="multiplicacao()" onmouseover="mudaCor(this)" onmouseout="corNormal(this)">Multiplicação</button>
+            <button id="btn4" onclick="divisao()" onmouseover="mudaCor(this)" onmouseout="corNormal(this)">Divisão</button>
+        </div>
+
+    </body>
+
+</html>
