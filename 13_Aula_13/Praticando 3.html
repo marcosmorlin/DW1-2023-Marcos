@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Praticando 3 - JavaScript - Cores(click e mouse)</title>
+        <link rel="stylesheet" href="Praticando3.css">
+        <script src="Praticando3.js"></script>
+    </head>
+
+    <body>
+
+        <a href="../13_Aula_13/Menu Principal.html" target="_blank">
+            <p>Voltar ao Menu</p>
+        </a>
+
+        <h1 id="h1">Praticando 3 - JavaScript - Cores(click e mouse)</h1>
+
+        <div id="caixas">
+            <div id="caixa1" onclick="mudaCorClique('caixa1')" onmouseover="passarPonteiro('caixa1')" onmouseout="voltaCorMouse('caixa1')"></div>
+            <div id="caixa2" onclick="mudaCorClique('caixa2')" onmouseover="passarPonteiro('caixa2')" onmouseout="voltaCorMouse('caixa2')"></div>
+            <div id="caixa3" onclick="mudaCorClique('caixa3')" onmouseover="passarPonteiro('caixa3')" onmouseout="voltaCorMouse('caixa3')"></div>
+            <div id="caixa4" onclick="mudaCorClique('caixa4')" onmouseover="passarPonteiro('caixa4')" onmouseout="voltaCorMouse('caixa4')"></div>
+            <div id="caixa5" onclick="mudaCorClique('caixa5')" onmouseover="passarPonteiro('caixa5')" onmouseout="voltaCorMouse('caixa5')"></div>
+        </div>
+
+        <button id="btn">Reset</button>
+        <br>
+
+        <br>
+        <p id="preview" onclick="remove()"></p>
+    </body>
+
+</html>
